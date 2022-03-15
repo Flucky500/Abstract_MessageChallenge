@@ -1,8 +1,8 @@
 package pl.pasko;
 
-public class Message {
+public abstract class Message {
 
-    public String getMessage(){
+    abstract String getMessage();
 
     }
-}
+
